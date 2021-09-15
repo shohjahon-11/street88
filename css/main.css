@@ -82,7 +82,38 @@ header p:nth-of-type(3){
     color: #ffff;
     padding: 28px 80px;
     background: #5fad29;
-    
+}
+
+main ul{
+    margin: 50px 50px;
+}
+main ul li{
+    margin-right: 50px;
+}
+
+main ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+main ul li a.active , main ul li a:hover{
+    color: #5fad29 ;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+}
+
+main .section_img{
+    width: 100%;
+    height:350px;
+    position: relative;
+}
+
+main .section_img  img{
+    width: 100%;
+    height: 100%;
 }
 
 
