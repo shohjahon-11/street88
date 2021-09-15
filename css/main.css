@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background: url('../bg_img@1X.jpeg');
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul li a{
+    padding: 35px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #69cf17;
+    display: block;
+}
+header nav ul li a:hover{
+    background: rgb(105,207, 23,0.75);
+    color: white;
+    text-decoration: none;
+}
+
+header .logo{
+    border: 3px solid #62be19;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    background: #4e9f0d;
+}
+header h1{
+    color: #62be19;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 145px;
+}
+header .active{
+    background: rgb(105,207, 23,0.75);
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+header .active span{
+    margin-top: 2px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    color: rgb(105,207, 23,0.75);
+    text-align: center;
+    margin-left: 5px;
+}
+.p2{
+    margin-top: -4px;
+}
+header p:nth-of-type(1){
+    font-size: 36px;
+    font-weight: 400;
+    color: #62be19;
+}
+
+header p:nth-of-type(2){
+    font-size: 18px;
+    font-weight: 400;
+    color: #dedede;
+}
+
+header p:nth-of-type(3){
+    font-size: 60px;
+    font-weight: 100;
+    color: #ffff;
+    padding: 28px 80px;
+    background: #5fad29;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
